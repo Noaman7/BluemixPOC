@@ -1,0 +1,28 @@
+{
+    "name"         : "node-red-node-cf-cloudant",
+    "version"      : "0.2.14",
+    "description"  : "A Node-RED node to access a Cloudant database on Bluemix",
+    "dependencies" : {
+        "cfenv"   : "1.0.0",
+        "cloudant": "1.0.0-beta3"
+    },
+    "repository" : {
+        "type" : "git",
+        "url"  : "https://github.com/Noaman7/BluemixPOC.git"
+    },
+    "license"  : "Apache",
+    "keywords" : [ "node-red", "cloudant", "bluemix" ],
+    "node-red" : {
+        "nodes" : {
+            "cloudant-cf" : "77-cloudant-cf.js"
+        }
+    },
+    "author" : {
+        "name" : "Luiz Gustavo Ferraz Aoqui",
+        "email": "laoqui@ca.ibm.com"
+    },
+    "contributors" : [
+        { "name": "Túlio Pascoal" },
+        { "name": "Igor Leão" }
+    ]
+}

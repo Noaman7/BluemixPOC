@@ -1,0 +1,19 @@
+{
+  "ServiceId": "com.ibm.cloudoe.orion.client.deploy",
+  "Params": {
+    "Target": {
+      "Url": "https://api.ng.bluemix.net",
+      "Org": "SmartAssetManagement_PoC",
+      "Space": "SAM_POC"
+    },
+    "Name": "AccessData",
+    "Instrumentation": {
+      "domain": "mybluemix.net",
+      "services": [
+        "IOTCA1-cloudantNoSQLDB"
+      ]
+    }
+  },
+  "Path": "manifest.yml",
+  "Type": "Cloud Foundry"
+}
